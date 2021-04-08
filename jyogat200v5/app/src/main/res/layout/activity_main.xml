@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--JOHN YOGATHAS - S1708974-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF9800"
+    android:foregroundTint="#000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/acknowledgement"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:text="Contains British Geological Survey materials ©NERC 2019"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"
+        android:text="Search Date Range" />
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"
+        android:text="Go to map view of UK" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF9800">
+
+        <LinearLayout
+            android:id="@+id/mainListFeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF9800"
+            android:gravity="center"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</LinearLayout>
+
